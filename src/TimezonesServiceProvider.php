@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraveldaily\Timezones;
+namespace LaravelDemoPackage\Timezones;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,6 +24,6 @@ class TimezonesServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes.php';
-        $this->app->make('Laraveldaily\Timezones\TimezonesController');
+        $this->app->make('LaravelDemoPackage\Timezones\TimezonesController');
     }
 }
