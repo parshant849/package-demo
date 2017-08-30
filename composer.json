@@ -1,0 +1,8 @@
+{
+    "name": "laraveldaily/timezones",
+    "description": "demo package to show time",
+    "type": "n",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
